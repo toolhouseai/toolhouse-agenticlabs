@@ -1,6 +1,18 @@
 # Toolhouse AgenticLabs
 
-A brief description of what this project does and who it's for.
+An AI agent factory that receives inbound requests to build AI agents, tracks their status, and assembles them dynamically. Built on Cloudflare with a database backend.
+
+## Features
+
+- Accepts inbound requests to create AI agents
+- Tracks agent build status and lifecycle
+- Database-backed persistence on Cloudflare
+
+## Tech Stack
+
+- **Runtime**: Cloudflare Workers
+- **Language**: TypeScript
+- **Database**: Cloudflare D1 / KV
 
 ## Installation
 
@@ -10,13 +22,17 @@ git clone https://github.com/orliesaurus/toolhouse-agenticlabs.git
 cd toolhouse-agenticlabs
 
 # Install dependencies
-# TODO: Add install commands
+npm install
 ```
 
 ## Usage
 
 ```bash
-# TODO: Add usage examples
+# Run locally
+npm run dev
+
+# Deploy to Cloudflare
+npm run deploy
 ```
 
 ## License
