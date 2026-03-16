@@ -1,0 +1,8 @@
+name = "toolhouse-agenticlabs"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agenticlabs-db"
+database_id = "f4c325b9-7e07-41ed-9b63-8e40f0f6b372"
